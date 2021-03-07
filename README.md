@@ -1,6 +1,6 @@
 # CarCompanion
-This is an app I've built for the "Android apps w/ Kotlin" course for the University of Plovdiv. 
-The app allows its users to buld their own database of parts and documents for their cars and customize them to their will. 
+This is an app I've built for the "Android apps w/ Kotlin" course for the University of Plovdiv. \n
+The app allows its users to buld their own database of parts and documents for their cars and customize them to their will. \n
 It tracks the mileage of the vehicle (by user input) and checks if any parts or documents are expired.
 It also provides a most basic efficiency calculator that may store the input. The calculator also shows what the last efficiency was and the average efficiency of the vehicle (only based on stored values).
 Calculator supports both imperial and metric systems, and can show effeciency in both mpg and l/100km
