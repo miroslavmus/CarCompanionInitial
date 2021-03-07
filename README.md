@@ -1,5 +1,5 @@
 # CarCompanion
-This is an app I've built for the "Android apps w/ Kotlin" course for the University of Plovdiv. 
+This is an app I've built for the "Android apps w/ Kotlin" course for the University of Plovdiv.
 
 The app allows its users to buld their own database of parts and documents for their cars and customize them to their will.
 
@@ -22,6 +22,5 @@ Future updates (firstly, will be a thing):
 -localization updates (up next: German, Spanish, Italian, French and simplified Chinese(yes, Chinese...));
 
 -additional logic (that i will not state, just to keep it a surprise :);
-
 
 Let's hope that Google approves the app in the future;
