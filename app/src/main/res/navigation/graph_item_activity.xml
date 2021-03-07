@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_intem_activity"
+    app:startDestination="@id/itemPartFragment">
+
+    <fragment
+        android:id="@+id/itemPartFragment"
+        android:name="uni.fmi.miroslav.carcompanion.fragments.ItemPartFragment"
+        android:label="fragment_item_part"
+        tools:layout="@layout/fragment_item_part" >
+        <action
+            android:id="@+id/action_itemPartFragment_to_itemDocumentFragment"
+            app:destination="@id/itemDocumentFragment" />
+        <action
+            android:id="@+id/action_itemPartFragment_to_createFixFragment"
+            app:destination="@id/createFixFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemDocumentFragment"
+        android:name="uni.fmi.miroslav.carcompanion.fragments.ItemDocumentFragment"
+        android:label="fragment_item_document"
+        tools:layout="@layout/fragment_item_document" >
+        <action
+            android:id="@+id/action_itemDocumentFragment_to_itemPartFragment"
+            app:destination="@id/itemPartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createFixFragment"
+        android:name="uni.fmi.miroslav.carcompanion.fragments.CreateFixFragment"
+        android:label="fragment_create_fix"
+        tools:layout="@layout/fragment_create_fix" >
+        <action
+            android:id="@+id/action_createFixFragment_to_itemPartFragment"
+            app:destination="@id/itemPartFragment" />
+    </fragment>
+</navigation>

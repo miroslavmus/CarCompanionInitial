@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Strings used globally-->
+    <string name="app_name">Автомобилен спътник</string>
+    <string name="previous">Предишен</string>
+
+    <string name="default_car_name">Моят Автомобил</string>
+
+    <!--Strings used in Settings activity-->
+    <string name="to_google_play">Към Google Play</string>
+    <string name="information">Информация</string>
+    <string name="clear_data">Изчистване на данни</string>
+    <string name="wipe_data">Изтриване на всичко</string>
+    <string name="about">Относно</string>
+    <string name="tutorial">Въведение</string>
+    <string name="units">Мерна единица</string>
+    <string name="metric">Метрични</string>
+    <string name="imperial">Имперски</string>
+
+
+    <!--Strings used in Calculator activity-->
+    <string name="result">Резултат</string>
+    <string name="liters_per_100km">Литра на 100км</string>
+    <string name="miles_per_gallon">Мили на галон</string>
+    <string name="average">Среден</string>
+    <string name="save_result">Запази</string>
+    <string name="fuel">Гориво</string>
+    <string name="distance">Пробег</string>
+    <string name="success">Успех</string>
+
+    <!--layout_list_item strings-->
+    <string name="change_on">Смяна на:</string>
+    <string name="change_at">Смяна на:</string>
+    <string name="not_set">няма</string>
+    <string name="message_ok">Всичко тук е наред</string>
+    <string name="object_name">Име на обект</string>
+
+
+    <!-- Strings used in CreateEntryActivity & layouts + fragments -->
+    <string name="months">Months</string>
+    <string name="empty_fields">Празни полета!</string>
+    <string name="changes_discarded">Промените бяха отхвърлени!</string>
+    <string name="sucess_entry">Успешно приети данни!</string>
+    <string name="invalid_entry">Невалидни данни, нищо не беше въведено</string>
+    <string name="document">Документ:</string>
+    <string name="expires_on">Изтича на:</string>
+    <string name="name">Име:</string>
+    <string name="submit">Предай</string>
+    <string name="part">Част:</string>
+    <string name="change_every">Сменяй на всеки:</string>
+    <string name="create_new_part">Създай нова част</string>
+    <string name="create_new_document">Създай нов документ</string>
+    <string name="mode_switch">Превключи между режим за документи и режим за части</string>
+    <string name="modify_part">Промени съществуваща част</string>
+    <string name="date">Дата</string>
+    <string name="sucess_reentry">Успешно променени данни!</string>
+    <string name="modify_document">Промени документ</string>
+    <string name="invalid_reentry">Неуспех при промяна на данни!</string>
+    <string name="unique_names_exception">Имената трябва да бъдат уникални!</string>
+    <string name="existing_parts">Вашите части:</string>
+    <string name="existing_documents">Вашите документи:</string>
+    <string name="inspect">Инспектирай</string>
+    <string name="delete">Изтрий</string>
+    <string name="confirm_delete_of">Наистина ли искате да изтриете</string>
+    <string name="reject">Отмени</string>
+    <string name="error">Грешка!</string>
+    <string name="nothing_to_modify">Нищо за промяна!</string>
+    <string name="docs_not_entered">Няма въведени документи</string>
+    <string name="renew_document">Обнови документ</string>
+    <string name="data">всички записи</string>
+    <string name="no_image_selected">Няма избрана картина</string>
+    <string name="document_attention">Документът изтича скоро!</string>
+    <string name="document_warning">Документът е изтекъл!</string>
+    <string name="part_warning">Частта се нуждае от поддръжка!</string>
+    <string name="part_attention">Частта ще се нуждае от поддръжка!</string>
+    <string name="parts_need_attention">части изискват внимание.</string>
+    <string name="docs_need_attention">документи изискват внимание.</string>
+    <string name="docs_expired">изтекли документи.</string>
+    <string name="parts_critical">части за поддръжка.</string>
+    <string name="coming_soon">Очаквайте скоро!</string>
+    <string name="confirm_clear_data_settings">Моля потвърдете: \n Искате ли да изтриете всички записи за ремонти и зареждания в приложението? \n ДЕЙСТВИЕТО Е НЕОБРАТИМО</string>
+    <string name="confirm_wipe_data_settings">Моля потвърдете: \n Искате ли да истриете ВСИЧКИ данни на приложението? \n ДЕЙСТВИЕТО Е НЕОБРАТИМО</string>
+    <string name="information_dialog_settings">Приложението е създадено за целите на организация на Вашия автомобил. За да спомогнете развитието на приложението, оставете коментар на страницата в Google магазин.</string>
+    <string name="about_app_dialog_settings">Това ужасно приложение е предоставено на Вас от мен - Мирослав Мусърлиев. Бъдете сигурни да посетите страницата на приложението в Google магазин за да ми кажете колко много не го харесвате (помага ми изключително МНОГО!).</string>
+    <string name="check">Проверка</string>
+    <string name="overview">Преглед</string>
+    <string name="parts">Части</string>
+    <string name="create_entries">Създай запис</string>
+    <string name="mileage_calculator">Калкулатор разход</string>
+    <string name="settings">Настройки</string>
+    <string name="documents">Документи</string>
+    <string name="update_entries">Промени запис</string>
+    <string name="change_image">Промени снимка</string>
+    <string name="parts_and_documents_that_n_need_attention">Части и документи, които \n се нуждаят от внимание</string>
+    <string name="changed_at">Смяна на:</string>
+    <string name="comment">Коментар:</string>
+    <string name="delete_part">Изтрий част</string>
+    <string name="delete_entries">Изтрий записи</string>
+    <string name="add_entry">Добави запис</string>
+    <string name="item_image">Снимка</string>
+    <string name="entry">запис</string>
+    <string name="changed_at_date">променен на</string>
+    <string name="message">Съобщение:</string>
+
+
+</resources>

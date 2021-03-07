@@ -1,0 +1,112 @@
+<resources>
+    <!--Strings used globally-->
+    <string name="app_name">Car companion</string>
+    <string name="previous">Previous</string>
+    <string name="mpg" translatable="false">mpg</string>
+    <string name="lp100km" translatable="false">L/100km</string>
+    <string name="success">Success</string>
+    <string name="default_car_name">My Vehicle</string>
+
+
+    <!--Strings used in Settings activity-->
+    <string name="to_google_play">To Google Play</string>
+    <string name="information">Information</string>
+    <string name="clear_data">Clear data</string>
+    <string name="wipe_data">Wipe data</string>
+    <string name="about">About</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="units">Units</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+
+    <!--Strings used in Calculator activity-->
+    <string name="result">Result</string>
+    <string name="liters_per_100km">Liters per 100km</string>
+    <string name="miles_per_gallon">Miles per gallon</string>
+    <string name="average">Average</string>
+    <string name="save_result">Save result</string>
+    <string name="fuel">Fuel</string>
+    <string name="distance">Distance</string>
+    <string name="li" translatable="false">Li</string>
+    <string name="km" translatable="false">KM</string>
+    <string name="mi" translatable="false">Mi</string>
+    <string name="gal" translatable="false">Gal</string>
+
+    <!--layout_list_item strings-->
+    <string name="change_on">Change on:</string>
+    <string name="change_at">Change at:</string>
+    <string name="not_set">Not set</string>
+    <string name="message_ok">Nothing wrong here</string>
+    <string name="object_name">Object name</string>
+
+
+    <!-- Strings used in CreateEntryActivity & layouts + fragments -->
+    <string name="months">Months</string>
+    <string name="empty_fields">Empty fields!</string>
+    <string name="changes_discarded">Changes have been discarded!</string>
+    <string name="sucess_entry">Successfully made entry!</string>
+    <string name="sucess_reentry">Successfully edited entry!</string>
+    <string name="invalid_entry">Invalid data, nothing was inserted</string>
+    <string name="document">Document:</string>
+    <string name="expires_on">Expires on:</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="part">Part:</string>
+    <string name="change_every">Change every:</string>
+    <string name="create_new_part">Create new part</string>
+    <string name="create_new_document">Create new document</string>
+    <string name="mode_switch">Switch between part and document mode.</string>
+    <string name="modify_part">Modify existing part</string>
+    <string name="date">Date</string>
+    <string name="modify_document">Modify document</string>
+    <string name="invalid_reentry">The update was not successful!</string>
+    <string name="unique_names_exception">Names must be unique!</string>
+    <string name="existing_parts">Your existing parts:</string>
+    <string name="existing_documents">Your existing documents:</string>
+    <string name="inspect">Inspect</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete_of">"Do you really want to delete "</string>
+    <string name="reject">Cancel</string>
+    <string name="error">Error!</string>
+    <string name="nothing_to_modify">Nothing to modify!</string>
+    <string name="docs_not_entered">You have no documents entered</string>
+    <string name="renew_document">Renew document</string>
+    <string name="data">all entries</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="document_attention">Document expires soon!</string>
+    <string name="document_warning">Document expired!</string>
+    <string name="part_warning">Part needs maintenance!</string>
+    <string name="part_attention">Part will need attention soon!</string>
+    <string name="parts_need_attention">parts need attention.</string>
+    <string name="docs_need_attention">documents need attention.</string>
+    <string name="docs_expired">documents expired.</string>
+    <string name="parts_critical">parts to be maintained</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="confirm_clear_data_settings">Please confirm: \n  Do you want to clear all "Fix" and "FillUp" entries within the application?\nTHIS CANNOT BE UNDONE</string>
+    <string name="confirm_wipe_data_settings">Please confirm: \n  Do you want to wipe ALL application data?\nTHIS CANNOT BE UNDONE</string>
+    <string name="information_dialog_settings">This app was built for clear car utility purposes. To contribute to the app, leave you suggestions on the Google Store page of the app.</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="about_app_dialog_settings">This terrible app was built by me - Miroslav Musarliev. Be sure to go to the Google Play store to tell me how much you hate it (it actually helps me a LOT!).</string>
+    <string name="check">Check</string>
+    <string name="overview">Overview</string>
+    <string name="parts">Parts</string>
+    <string name="create_entries">Create entries</string>
+    <string name="mileage_calculator">Mileage calculator</string>
+    <string name="settings">Settings</string>
+    <string name="documents">Documents</string>
+    <string name="placeholder" translatable="false">placeholder</string>
+    <string name="update_entries">Update entries</string>
+    <string name="change_image">Change image</string>
+    <string name="parts_and_documents_that_n_need_attention">Parts and documents that \n need attention:</string>
+    <string name="changed_at">Changed at:</string>
+    <string name="comment">Comment:</string>
+    <string name="delete_part">Delete part</string>
+    <string name="delete_entries">Delete entries</string>
+    <string name="add_entry">Add entry</string>
+    <string name="item_image">Item image</string>
+    <string name="entry">entry</string>
+    <string name="changed_at_date">changed at date</string>
+    <string name="message">Message:</string>
+
+
+</resources>

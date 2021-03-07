@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/modify_activity"
+    app:startDestination="@id/partFormFragment2">
+
+    <fragment
+        android:id="@+id/partFormFragment2"
+        android:name="uni.fmi.miroslav.carcompanion.fragments.PartFormFragment"
+        android:label="fragment_document_form"
+        tools:layout="@layout/fragment_document_form" >
+        <action
+            android:id="@+id/action_partFormFragment2_to_documentFormFragment2"
+            app:destination="@id/documentFormFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/documentFormFragment2"
+        android:name="uni.fmi.miroslav.carcompanion.fragments.DocumentFormFragment"
+        android:label="DocumentFormFragment" >
+        <action
+            android:id="@+id/action_documentFormFragment2_to_partFormFragment2"
+            app:destination="@id/partFormFragment2" />
+    </fragment>
+</navigation>
